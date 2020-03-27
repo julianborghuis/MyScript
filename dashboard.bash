@@ -23,32 +23,38 @@ do
     case $opt in
         "Pterodactyl")
 	    clear
-	    bash pterodactyl.bash
+	    wget https://thomascaptein.nl/pterodactyl.bash && bash pterodactyl.bash
         echo "Installtie Klaar!"
             ;;
         "Pterodactyl-Theme")
 	    clear
-	    bash pterodactyl-themes.bash
+        wget https://thomascaptein.nl/pterodactyl-themes.bash && bash pterodactyl-themes.bash
         echo "Installtie Klaar!"
             ;;
         "Azurecast")
 	    clear
 	    bash azurecast.bash
+        wget https://thomascaptein.nl/azurecast.bash && bash azurecast.bash
         echo "Installtie Klaar!"
             ;;
         "SolusVM")
 	    clear
-	    bash solusvm.bash
+        wget https://thomascaptein.nl/solusvm.bash && bash solusvm.bash
         echo "Installtie Klaar!"
             ;;
         "SolusVM-versie")
 	    clear
-	    bash solusvm-versie.bash
+        wget https://thomascaptein.nl/solusvm-versie.bash && bash solusvm-versie.bash
         echo "Installtie Klaar!"
             ;;
-        "SolusVM-versie")
+        "phpmyadmin")
 	    clear
-	    bash phpmyadmin.bash
+        wget https://thomascaptein.nl/phpmyadmin.bash && bash phpmyadmin.bash
+        echo "Installtie Klaar!"
+            ;;
+        "netdata")
+	    clear
+        wget https://thomascaptein.nl/netdata.bash && bash netdata.bash
         echo "Installtie Klaar!"
             ;;
         "Klaar")
