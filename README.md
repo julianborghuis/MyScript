@@ -10,7 +10,7 @@ Select which installation you want to do and done.
 
 This code is made in Dutch
 
-To do list:
-Make it English
-Make it French
-Make it German
+# To do list:
+- Make it English
+-Make it French
+- Make it German
